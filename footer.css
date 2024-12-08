@@ -1,0 +1,95 @@
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+   background-color: rgb(215, 215, 250);
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: cyan;
+
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color:azure;
+}
+
+#newsletter p span{
+    color:rgb(253, 255, 240);
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: springgreen;
+    color: white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.696);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+
+footer .logo {
+    margin-bottom: 30px;
+     
+}
+
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+footer p{
+    color: white;
+    font-size: 13px;
+    margin:0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+footer a:hover{
+    color: aliceblue;
+}

@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #e4e9f7;
+
+  }
+
+body{
+    font-family: "Poppins", sans-serif;
+    /* background: #e4e9f7; */
+
+
+
+}
+/* .header{
+    background: radial-gradient(#cdedf0,#9fe1ea);
+} */
+.container{
+    background: radial-gradient(#cdedf0,#9fe1ea);
+    /* background: #90a9ee; */
+
+    margin: auto;
+    height: 100%;
+    /* margin: 20px auto; */
+    /*padding-left: 25px;
+    padding-right: 25px; */
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.navbar{
+    height: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    z-index: 999;
+    background: radial-gradient(#9fe1ea,#9fe1ea);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    /* padding: 20px; */
+    justify-content: space-between;
+    /* position: sticky;
+    left: 0;
+    top: 0; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+.logo{
+    font-size: 24px;
+}
+/* #highlight{
+     flex: 1; 
+     text-align: right; 
+} */
+.highlight {
+    display: inline-block;
+    list-style-type: none;
+}
+.highlight  li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.highlight li a{
+    text-decoration: none;
+    font-size: 16px;
+    /* color: #555; */
+    color: #1a1a1a;
+    font-weight: 600;
+    position: relative;
+    /* transition: 0.3s ease; */
+}
+.highlight li a:hover,
+.highlight li a.active{
+    /* color: rgb(212, 81, 81); */
+    /* color: #0ba99e; */
+    /* color: #1E5162; */
+    color: #7300e6;
+    
+}
+
+ .header .highlight li  a.active::after,
+ .header .highlight li  a:hover::after{
+    content: "";
+    width: 100%;
+    text-decoration: none;
+    height: 2px;
+    /* background: rgb(237, 56, 56); */
+    /* background-color: #7300e6; */
+    position: absolute;
+    bottom: -4px;
+    left: 2px;
+}
+#shopcart{
+    /* color: #555; */
+    font-size: 22px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#shopcart:hover{
+    color: #7300e6;
+     transform: scale(1.3);
+}
+
+
+.column a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    /* color: #1a1a1a; */
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+}
+.column a:hover{
+    /* color: rgb(237, 56, 56); */
+    color: #7300e6;
+    
+}
+
+
+p{
+    color: #555;
+}
+#logbtn{
+    display: inline-block;
+    background: #31ede7;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1400px;
+
+    justify-content: space-around;
+}
+.column{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.column img{
+    max-width: 100%;
+    padding: 50px 0;
+    /* height: 800px; */
+}
+.column h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.bannerbtn{
+    display: inline-block;
+    background: #e4e9f7;
+
+    /* background: #31ede7; */
+    color: #1a1a1a;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+}
+.bannerbtn:hover{
+    /* background-color:#7300e6 ; */
+    background: #bccdf9;
+
+    color: #1a1a1a;
+}
+
+/* .column a{
+    text-decoration: none;
+} */
+.header .banner{
+    margin-top: 70px;
+}
+
+                    /* NEW SLIDER........ */
+
+
+.mySlides {
+    display: none;
+}
+.slideshow-container img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1300px; */
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  /* object-fit: cover; */
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* 
+.active {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+

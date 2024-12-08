@@ -1,0 +1,155 @@
+
+/* Reset basic styling for a more consistent layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Styles for the contact section */
+section, section #contactus {
+  background: radial-gradient(#9fe1ea,#9fe1ea);
+  padding: 20px;
+}
+
+#contact-head {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid black;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  color: black;
+}
+
+#contact-message {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact-table {
+  padding: 10px 25px;
+  padding-bottom: 30px;
+  min-width: 450px;
+  max-width: 500px;
+  background-color: #fff ;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.contact-inputs {
+  margin-left: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--primary-title);
+}
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  margin: 30px 10px;
+}
+label {
+  display: inline-block;
+}
+
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  width: 100%;
+  background-color: black;
+}
+#social-media-icons {
+  font-size: 30px;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.social-media {
+  font-size: 40px;
+  color: #333; /* Assuming you want a dark blue color for social media icons */
+}
+#social-section {
+  padding: 70px 0px;
+}
+
+.social-media:hover {
+  color: #000; /* Darken the color on hover */
+}
+
+/* Styles for the footer section (basic styles) */
+footer {
+  background-color: #f2f2f2; /* Assuming you want a light gray background for the footer */
+  padding: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 25%;
+}
+
+.col h4 {
+  margin-bottom: 10px;
+}
+
+.col a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.col a:hover {
+  font-weight: bold;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333; /* Assuming you want a dark blue color for icons */
+}
+
+.icon i:hover {
+  color: #000; /* Darken the color on hover */
+}
+
+.footer-details i {
+  color: rgb(67, 67, 163);
+}
+.fa, .fas {
+  font-weight: 900;
+}
+
+

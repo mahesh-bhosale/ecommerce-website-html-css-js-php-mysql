@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   
+.container{
+    height: 50vh;
+} */
+.navbar{
+    display:flex;   
+    background: radial-gradient(#cdedf0,#9fe1ea);
+    height: 70px;
+    /* margin-bottom: 20px; */
+}
+
+#shopbanner{
+    height: 400px;
+    width: 100%;
+    /* overflow: hidden; */
+    object-fit: cover;
+    margin-top: 50px;
+}
+/* 
+.header{
+    height: 470px;
+} */#user {
+    display: grid;
+    grid-auto-flow: column; /* Ensures items are laid out in a row */
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.userIcon
+{
+    
+    font-size: 30px;
+}
