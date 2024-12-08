@@ -65,7 +65,11 @@ if (!isset($_SESSION['valid'])) {
                   <li><a href="about.html">About</a></li>
                   <li><a href="contact.html">Contact</a></li>
                   <li><a href="account.php">account</a></li>
-                  <li id="shopcart" ><a href="cart.html"><i class="fa-solid fa-bag-shopping "><div id="badge"> 0 </div></i></a></li>                  </ul>
+                  <li id="shopcart" >
+                    <div id="user">
+                      <a href="cart.html"><i class="fa-solid fa-bag-shopping "><div id="badge"> 0 </div></i></a></div></li>   
+                                
+                </ul>
                   
                   <!-- <button id="logbtn">login</button>  -->
                 </div>
